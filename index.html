@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе у Дмитра</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Кафе у Дмитра</h1>
+    </header>
+    
+    <section id="menu">
+        <h2>Меню</h2>
+        <ul>
+            <li>Кава - 50 грн</li>
+            <li>Чай - 40 грн</li>
+            <li>Коктейль REVO - 80 грн</li>
+        </ul>
+    </section>
+    
+    <section id="entertainment">
+        <h2>Розваги</h2>
+        <p>Жива музика, настільні ігри, спортивні трансляції.</p>
+    </section>
+    
+    <section id="address">
+        <h2>Адреса</h2>
+        <p>м. Вінниця, вул. Центральна, 10</p>
+    </section>
+    
+    <button id="orderBtn">Замовити</button>
+    
+    <div id="orderPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Ваше замовлення</h2>
+            <input type="text" id="customerName" placeholder="Ваше ім'я">
+            <textarea id="orderDetails" placeholder="Введіть замовлення"></textarea>
+            <button id="sendOrder">Надіслати</button>
+        </div>
+    </div>
+</body>
+</html>
